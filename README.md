@@ -1,4 +1,4 @@
-# nameserverchecker
+# Domain Name Server Checker
 Simple multi-threaded python script which using `dig ns` to obtain NameServer records for domains provided. 
 
 ##Using NameServerChecker.py
