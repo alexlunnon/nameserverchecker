@@ -17,7 +17,7 @@ def doWork():
 
 def getStatus(ourl):
     try:
-        whoisresult = commands.getoutput("dig ns " + ourl + " +short") #get whois information
+        whoisresult = commands.getoutput("dig ns " + ourl + " +short")
         return whoisresult
     except:
         error = 1
