@@ -30,7 +30,7 @@ for i in range(concurrent):
     t.daemon = True
     t.start()
 try:
-    for url in open('alldomains.csv'):
+    for url in open('domains.csv'):  #Location of your CSV containing one domain per line
         q.put(url.strip())
     q.join()
 except KeyboardInterrupt:
